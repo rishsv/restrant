@@ -1,33 +1,36 @@
-#Ex.07 Restaurant Website
-#Date: 01-10-2025
-#AIM:
-#To develop a static Restaurant website to display the food items and services provided by them.
+# Ex07 Restaurant Website
+## Date: 01/10/2025
 
-#DESIGN STEPS:
-#Step 1:
-#Requirement collection.
+## AIM
+To develop a website to display details about the places around my house.
 
-#Step 2:
-#Creating the layout using HTML and CSS.
+## DESIGN STEPS
 
-#Step 3:
-#Updating the sample content.
+### STEP 1
+Requirement collection.
 
-#Step 4:
-#Choose the appropriate style and color scheme.
+### STEP 2
+Creating the layout using HTML and CSS.
 
-#Step 5:
-#Validate the layout in various browsers.
+### STEP 3
+Updating the sample content.
 
-#Step 6:
-#Validate the HTML code.
+### STEP 4
+Choose the appropriate style and color scheme.
 
-#Step 7:
-#Publish the website in the given URL.
+### STEP 5
+Validate the layout in various browsers.
 
-#PROGRAM:
+### STEP 6
+Validate the HTML code.
+
+### STEP 7
+Publish the website in the given URL.
+
+## PROGRAM:
 
 ```
+
 
 <!-- ========================= index.html ========================= -->
 <!doctype html>
@@ -35,7 +38,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>La Rustica - Home</title>
+  <title>The Golden Spoon - Home</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -114,7 +117,7 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
-        <h4>La Rustica</h4>
+        <h4>The Golden Spoon</h4>
         <p>123 Spice Street, Foodville</p>
       </div>
       <div>
@@ -128,7 +131,7 @@
       <div>
         <h4>Contact</h4>
         <p>Phone: +91-98765-43210</p>
-        <p>Email: contact@larustica.example</p>
+        <p>Email: contact@thegold.example</p>
       </div>
     </div>
     <div class="footer-bottom">Designed by Rishwanth S V</div>
@@ -136,20 +139,19 @@
 </body>
 </html>
 
-
 <!-- ========================= menu.html ========================= -->
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>La Rustica - Menu</title>
+  <title>The Golden Spoon - Menu</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header small">
     <div class="container header-flex">
-      <h1 class="logo">La Rustica</h1>
+      <h1 class="logo">The Golden Spoon</h1>
       <nav>
         <ul class="nav">
           <li><a href="index.html">Home</a></li>
@@ -257,7 +259,7 @@
   <footer class="site-footer small">
     <div class="container footer-grid">
       <div>
-        <h4>La Rustica</h4>
+        <h4>The Golden Spoon</h4>
         <p>123 Spice Street, Foodville</p>
       </div>
       <div class="footer-bottom">Designed by Rishwanth S V</div>
@@ -273,13 +275,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>La Rustica - Administration</title>
+  <title>The Golden Spoon - Administration</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header small">
     <div class="container header-flex">
-      <h1 class="logo">La Rustica</h1>
+      <h1 class="logo">The Golden Spoon</h1>
       <nav>
         <ul class="nav">
           <li><a href="index.html">Home</a></li>
@@ -338,7 +340,7 @@
   <footer class="site-footer small">
     <div class="container footer-grid">
       <div>
-        <h4>La Rustica</h4>
+        <h4>The Golden Spoon</h4>
         <p>123 Spice Street, Foodville</p>
       </div>
       <div class="footer-bottom">Designed by Rishwanth S V</div>
@@ -348,19 +350,21 @@
 </html>
 
 
+
+
 <!-- ========================= contact.html ========================= -->
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>La Rustica - Contact Us</title>
+  <title>The Golden Spoon - Contact Us</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header small">
     <div class="container header-flex">
-      <h1 class="logo">La Rustica</h1>
+      <h1 class="logo">The Golden Spoon</h1>
       <nav>
         <ul class="nav">
           <li><a href="index.html">Home</a></li>
@@ -379,7 +383,7 @@
     <section class="contact-grid">
       <div class="contact-card">
         <h3>Address</h3>
-        <p>La Rustica, 123 Spice Street,<br> Foodville, 600001</p>
+        <p>The Golden Spoon, 123 Spice Street,<br> Foodville, 600001</p>
       </div>
 
       <div class="contact-card">
@@ -389,7 +393,7 @@
 
       <div class="contact-card">
         <h3>Email</h3>
-        <p>contact@larustica.example</p>
+        <p>contact@thegold.example</p>
       </div>
     </section>
 
@@ -413,7 +417,7 @@
   <footer class="site-footer small">
     <div class="container footer-grid">
       <div>
-        <h4>La Rustica</h4>
+        <h4>The Golden Spoon</h4>
         <p>123 Spice Street, Foodville</p>
       </div>
       <div class="footer-bottom">Designed by Rishwanth S V</div>
@@ -421,11 +425,13 @@
   </footer>
 </body>
 </html>
-
 ```
 
-OUTPUT:
+## OUTPUT:
+![alt text](Restaurant/image.png)
+![alt text](<Screenshot 2025-10-02 222319.png>)
+![alt text](<Screenshot 2025-10-02 222549.png>)
 
 
-RESULT:
+## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
