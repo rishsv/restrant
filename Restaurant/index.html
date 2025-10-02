@@ -1,0 +1,121 @@
+<!--
+Project: Restaurant Website (Assignment)
+Files included below as separate sections. Save each HTML block into its own file (index.html, menu.html, admin.html, contact.html) and the CSS into styles.css. Put images in an `images/` folder and update file names accordingly.
+
+Color scheme (used across site):
+- Primary (Maroon): #8B0000
+- Secondary (Cream): #FFF5E1
+- Accent (Gold): #D4AF37
+- Dark (Slate): #2F3E46
+
+Author: Rishwanth S V (appears in footer as required)
+
+Note: No external libraries or frameworks used. Plain HTML5 and CSS3.
+-->
+
+<!-- ========================= index.html ========================= -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>La Rustica - Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-flex">
+      <div class="logo">
+        <img src="logo.jpg" alt="Restaurant Logo" class = "The Golden Spoon">
+        <span class="site-name">
+          <b>The Golden Spoon
+            </b>
+          </span>
+      </div>
+
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="admin.html">Administration</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="banner">
+      <img src="hostes.jpg" alt="Restaurant Banner">
+      <div class="The Golden Spoon">
+        <style>
+          h2 {text-align: center;}
+        </style>
+
+        <h2>Authentic Flavours • Fresh Ingredients • Warm Hospitality</h2>
+        <style>
+          p {text-align: center;}
+        </style>
+        <p>Family recipes, modern plating — welcome to La Rustica.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-home">
+    <section class="intro">
+      <h2>About Us</h2>
+      <p>
+        La Rustica brings the rustic warmth of traditional kitchens to your table. We believe in seasonal produce, handmade sauces,
+        and friendly service. Join us for breakfast, lunch or a relaxed dinner.
+      </p>
+    </section>
+
+    <section class="highlights">
+      <div class="card">
+        <style>
+          p {text-align: center;}
+          h3 {text-align: center;}
+        </style>
+        <h3>Fresh Ingredients</h3>
+        <p>Locally sourced vegetables, meats and artisanal breads baked daily.</p>
+      </div>
+      <div class="card">
+        <style>
+          p {text-align: center;}
+          h3 {text-align: center;}
+        </style>
+        <h3>Chef's Specials</h3>
+        <p>Rotating weekly menus inspired by regional and international cuisine.</p>
+      </div>
+      <div class="card">
+        <style>
+          p {text-align: center;}
+          h3 {text-align: center;}
+        </style>
+        <h3>Cozy Ambience</h3>
+        <p>Comfortable seating, soft lighting — perfect for family & friends.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>La Rustica</h4>
+        <p>123 Spice Street, Foodville</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="admin.html">Administration</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Phone: +91-98765-43210</p>
+        <p>Email: contact@larustica.example</p>
+      </div>
+    </div>
+    <div class="footer-bottom">Designed by Rishwanth S V</div>
+  </footer>
+</body>
+</html>
